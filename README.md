@@ -1,2 +1,2 @@
 # sorcery-datapack
-minecraft datapack with magic (ooh)
+minecraft datapack with dr strange magic and stuffs
