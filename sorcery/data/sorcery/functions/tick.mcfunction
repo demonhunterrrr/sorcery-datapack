@@ -6,3 +6,9 @@ execute at @e[tag=wanda_particle] run effect give @e[distance=..2,tag=!particle]
 execute at @e[tag=wanda_particle] run particle minecraft:dust 255 0 0 1 ^ ^0.5 ^-0.5 1 1 1 50 50 normal
 execute at @a[nbt=!{SelectedItem:{id:'minecraft:book',Count:1b,tag:{display:{Name:'{"text":"The Dark Hold","color":"#aa0000","italic":"false"}'}}}},tag=wanda] run tag @s remove wanda
 execute as @e[tag=wanda_particle] unless entity @a[distance=..20,tag=wanda] run kill @s
+
+# Vishanti Abilities
+execute at @e[tag=vishanti_particle] run particle minecraft:dust 1 0.7 0 2 ^ ^ ^ 0 0.5 0 500 200
+execute at demon__hunter run tp @e[tag=vishanti_rotate] ~ ~2 ~
+execute as @e[tag=vishanti_rotate] at @e[tag=vishanti_rotate] run tp @s ~ ~ ~ ~15 ~
+execute at @e[tag=vishanti_rotate] run tp @e[tag=vishanti_particle] ^ ^-1 ^2
