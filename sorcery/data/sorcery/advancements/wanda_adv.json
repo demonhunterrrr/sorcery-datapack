@@ -4,11 +4,11 @@
         "unlocked wanda": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "crafting:wanda"
+                "recipe": "sorcery:wanda"
             }
         }
     },
     "rewards": {
-        "function": "function:wanda"
+        "function": "sorcery:wanda"
     }
 }
