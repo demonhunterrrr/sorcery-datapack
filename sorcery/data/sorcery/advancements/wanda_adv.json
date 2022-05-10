@@ -1,1 +1,14 @@
-
+{
+    "__comment": "be hot",
+    "criteria": {
+        "unlocked wanda": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "crafting:wanda"
+            }
+        }
+    },
+    "rewards": {
+        "function": "function:wanda"
+    }
+}
