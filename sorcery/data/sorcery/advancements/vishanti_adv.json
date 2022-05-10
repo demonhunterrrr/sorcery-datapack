@@ -1,1 +1,14 @@
-
+{
+    "__comment": "be hot",
+    "criteria": {
+        "unlocked vishanti": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sorcery:vishanti"
+            }
+        }
+    },
+    "rewards": {
+        "function": "function:vishanti"
+    }
+}
