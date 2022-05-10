@@ -9,6 +9,6 @@
         }
     },
     "rewards": {
-        "function": "function:vishanti"
+        "function": "sorcery:vishanti"
     }
 }
